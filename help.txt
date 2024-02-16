@@ -1,0 +1,20 @@
+git init
+
+git config --global user.name 'Kalisto74'
+git config --global user.email 'kalisto999@gmail.com'
+
+git config --local user.name 'Kalisto74'
+git config --local user.email 'kalisto999@gmail.com'
+
+git status
+
+git add -A
+
+git commit -a -m'12-02-2024'
+
+посмотреть коммиты
+git log
+
+git remote add origin git@github.com:kalisto74/js-uroki.git
+git branch -M main
+git push -u origin main
