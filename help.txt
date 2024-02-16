@@ -9,8 +9,10 @@ git config --local user.email 'kalisto999@gmail.com'
 git status
 
 git add -A
+git add --all
+git add . # добавить всю текущую папку
 
-git commit -a -m'12-02-2024'
+git commit -a -m'16-02-2024-mice'
 
 посмотреть коммиты
 git log
